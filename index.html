@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <h1>Ключевые слова КЕНЕ</h1>
+  <ol type="I">
+    <li><b>A</b>
+      <ul type="disc">
+        <li><a href="http://">abstract</a></li>
+      </ul>
+    </li>
+    <li><b>B</b>
+      <ul type="disc">
+        <li><a href="http://">boolean</a></li>
+        <li><a href="http://">break</a></li>
+        <li><a href="http://">byte</a></li>
+      </ul>
+    </li>
+    <li><b>C</b>
+      <ul type="disc">
+        <li><a href="http://">case</a></li>
+        <li><a href="http://">catch</a></li>
+        <li><a href="http://">char</a></li>
+        <li><a href="http://">class</a></li>
+        <li><a href="http://">const</a></li>
+        <li><a href="http://">continue</a></li>
+      </ul>
+    </li>
+  </ol>
+
+  <table border="3" class="first-table">
+    <thead class="first-table-thead">
+      <tr>
+        <th class="first-table-thead" rowspan="2">Browser</th>
+        <th class="first-table-thead" colspan="2">Visitors</th>
+      </tr>
+      <tr>
+        <th class="first-table-thead">Number</th>
+        <th class="first-table-thead">Percentage</th>
+      </tr>
+    </thead>
+    <tbody class="first-table-tbody">
+      <tr>
+        <td class="first-table-tbody">Mozilla Firefox</td>
+        <td class="first-table-tbody">163</td>
+        <td class="first-table-tbody">59%</td>
+      </tr>
+      <tr>
+        <td class="first-table-tbody">Google Chrome</td>
+        <td class="first-table-tbody">78</td>
+        <td class="first-table-tbody">28%</td>
+      </tr>
+      <tr>
+        <td class="first-table-tbody">Safari</td>
+        <td class="first-table-tbody">35</td>
+        <td class="first-table-tbody">13%</td>
+      </tr>
+    </tbody>
+  </table>
+  <br>
+
+  <table border="1" class="second-table">
+    <thead id="main-table">
+      <tr>
+        <th>Name</th>
+        <th>Value</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Name</td>
+        <td>
+          <form action="app.php" method="post">
+            <input type="text" name="name" id="name" size="29px">
+          </form>
+        </td>
+      </tr>
+      <tr>
+        <td>Sex</td>
+        <td>
+          <form action="app.php" method="post">
+            <input type="radio" name="gender" id="male">Male
+            <br>
+            <input type="radio" name="gender" id="femele" checked>Female
+          </form>
+        </td>
+      </tr>
+      <tr>
+        <td>Eye color</td>
+        <td>
+          <select>
+            <option value="s1">green</option>
+            <option value="s2">blue</option>
+            <option value="s3">gray</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td>Check all that apply</td>
+        <td>
+          <form action="app.php" method="post">
+            <input type="checkbox" name="over6" id="over6">Over 6 feet tall
+            <br>
+            <input type="checkbox" name="over200" id="over200">Over 200 pounds
+          </form>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <label for="textter">Describe your athletic ability:</label>
+          <br>
+          <textarea id="textter" name="textter" rows="4" cols="50">
+        </textarea>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <form id="buttom">
+            <input type="submit" value="Enter my information">
+          </form>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <br>
+
+  <div class="main">
+    <b>The World of Fruit</b>
+  </div>
+  <div class="main-two">
+    <b>Fruit Survey</b>
+    <form action="app.php" method="post">
+      <table width="400px" cellspacing="0" cellpadding="10" class="main-table">
+        <tr>
+          <td align="right" width="400px">Name</td>
+          <td align="left"><input type="text" required name="nickname" maxlength="50" size="20"></td>
+        </tr>
+        <tr>
+          <td align="right">Address</td>
+          <td align="left"><input type="text" required name="address" maxlength="50" size="20"></td>
+        </tr>
+        <tr>
+          <td align="right" valign="top">Email</td>
+          <td align="left"><input type="email" required name="email" maxlength="50" size="20"></td>
+        </tr>
+        <tr>
+          <td align="right" valign="top">How many pieces of fruit do you eat per day?</td>
+          <td align="left">
+            <input type="radio" required name="number" id="zero">0
+            <br>
+            <input type="radio" required name="number" id="one">1
+            <br>
+            <input type="radio" required name="number" id="two">2
+            <br>
+            <input type="radio" required name="number" id="more">More than 2
+            <br>
+          </td>
+        </tr>
+        <tr>
+          <td align="right" valign="top">My favorite fruit</td>
+          <td align="left">
+            <select name="select" size="4" multiple required>
+              <option value="s1">Apple</option>
+              <option value="s2">Banana</option>
+              <option value="s3">Plum</option>
+              <option value="s4">Pomegranate</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td align="right" valign="top">Would you like a brochure?</td>
+          <td align="left"><input type="checkbox" required name="box" id="box"></td>
+        </tr>
+        <tr>
+          <td> </td>
+          <td align="left"><input type="submit" value="Submit"></td>
+        </tr>
+      </table>
+    </form>
+  </div>
+</body>
+
+</html>
